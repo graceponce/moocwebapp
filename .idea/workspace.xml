@@ -7,8 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d3fbe7-0129-4b4b-8417-c678688147c8" name="Default Changelist" comment="actualizacion de server.py">
-      <change beforePath="$PROJECT_DIR$/mooc/U2/app/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/server.py" afterDir="false" />
+    <list default="true" id="a1d3fbe7-0129-4b4b-8417-c678688147c8" name="Default Changelist" comment="server.py actualizado ultimo antes del sign up">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/signup_ini.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/signup_ini.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +42,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/server - copia.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/home.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/server.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/login.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
+    <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/signup_ini.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1rryTvYvpQddKyGYfVc9P6VY0Pi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -103,7 +106,7 @@
       <workItem from="1619914799507" duration="3501000" />
       <workItem from="1619918407912" duration="2259000" />
       <workItem from="1619920731722" duration="962000" />
-      <workItem from="1619921779868" duration="126000" />
+      <workItem from="1619921779868" duration="1105000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion de server.py">
       <created>1619921644476</created>
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619921644476</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="server.py actualizado ultimo antes del sign up">
+      <created>1619921946086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619921946086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,12 +142,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="actualizacion de server.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualizacion de server.py" />
+    <MESSAGE value="server.py actualizado ultimo antes del sign up" />
+    <option name="LAST_COMMIT_MESSAGE" value="server.py actualizado ultimo antes del sign up" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/moocwebapp$server___copia.coverage" NAME="server - copia Coverage Results" MODIFIED="1619909582976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
     <SUITE FILE_PATH="coverage/moocwebapp$server__1_.coverage" NAME="server  original Coverage Results" MODIFIED="1619911568778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
     <SUITE FILE_PATH="coverage/moocwebapp$server.coverage" NAME="server Coverage Results" MODIFIED="1619749431616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/U2/static" />
-    <SUITE FILE_PATH="coverage/moocwebapp$server__original.coverage" NAME="server  original Coverage Results" MODIFIED="1619921810585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
+    <SUITE FILE_PATH="coverage/moocwebapp$server__original.coverage" NAME="server  original Coverage Results" MODIFIED="1619922780335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
   </component>
 </project>
