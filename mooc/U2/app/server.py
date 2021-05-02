@@ -76,7 +76,7 @@ def processSignup():
            '</html>'
 
 
-'''@app.route('/processHome/', methods=['GET', 'POST'])
+@app.route('/processHome/', methods=['GET', 'POST'])
 def processHome():
 	missing = []
 	fields = ['message', 'last', 'post_submit']
@@ -107,7 +107,7 @@ def processHome():
             		'</div></div>' \
            '</body>' \
            '</html>'
-'''
+
 
 #app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
 # start the server with the 'run()' method
