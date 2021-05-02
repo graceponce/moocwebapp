@@ -7,9 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d3fbe7-0129-4b4b-8417-c678688147c8" name="Default Changelist" comment="css ingresado en login funcional">
+    <list default="true" id="a1d3fbe7-0129-4b4b-8417-c678688147c8" name="Default Changelist" comment="css ingresado en login funcional en todas las paginas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/U2/app/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/css/socnet-style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/signup_ini.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/signup_ini.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" afterDir="false" />
     </list>
@@ -43,9 +46,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/server - copia.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/home.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/css/socnet-style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/server.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/login.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/css/my-socnet-style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/signup_ini.html" root0="SKIP_INSPECTION" />
   </component>
@@ -108,7 +111,7 @@
       <workItem from="1619920731722" duration="962000" />
       <workItem from="1619921779868" duration="2724000" />
       <workItem from="1619924557844" duration="3269000" />
-      <workItem from="1619986891634" duration="5431000" />
+      <workItem from="1619986891634" duration="9631000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion de server.py">
       <created>1619921644476</created>
@@ -145,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619992313220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="css ingresado en login funcional en todas las paginas">
+      <created>1619992516575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619992516575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,13 +179,14 @@
     <MESSAGE value="project sin errores hasta login" />
     <MESSAGE value="projecto actualizado y todo funciona correctamente" />
     <MESSAGE value="css ingresado en login funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="css ingresado en login funcional" />
+    <MESSAGE value="css ingresado en login funcional en todas las paginas" />
+    <option name="LAST_COMMIT_MESSAGE" value="css ingresado en login funcional en todas las paginas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/moocwebapp$server___copia.coverage" NAME="server - copia Coverage Results" MODIFIED="1619909582976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
     <SUITE FILE_PATH="coverage/moocwebapp$server__1_.coverage" NAME="server  original Coverage Results" MODIFIED="1619911568778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
     <SUITE FILE_PATH="coverage/moocwebapp$moocwebapp.coverage" NAME="server Coverage Results" MODIFIED="1619927439661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
-    <SUITE FILE_PATH="coverage/moocwebapp$server.coverage" NAME="server Coverage Results" MODIFIED="1619992281922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
+    <SUITE FILE_PATH="coverage/moocwebapp$server.coverage" NAME="server Coverage Results" MODIFIED="1619996571850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
     <SUITE FILE_PATH="coverage/moocwebapp$server__original.coverage" NAME="server  original Coverage Results" MODIFIED="1619923278655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
   </component>
 </project>
