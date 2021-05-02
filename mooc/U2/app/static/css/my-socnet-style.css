@@ -1,0 +1,24 @@
+
+/* Own stylesheet for SocNet */
+#container{
+  font-family: Helvetica, Geneva, Arial, sans-serif;
+  padding-left: 20px;
+  background-color: beige; /* beige */
+  font-color: darkgrey; /* dark grey */
+  margin: 10px;
+}
+a:link{color:black;font-size: 120%;text-decoration: none;}
+a:hover{color:#cd7f32;}
+h1{color:#d69544;font-size:200%;margin: 20px;}
+
+label{
+  font-size: 110%;
+  padding: 5px;
+  text-align: left;
+  margin: 5px;
+}
+.inputs{
+  padding: 5px;
+  text-align: left;
+  margin: 5px;
+}
