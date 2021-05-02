@@ -7,12 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d3fbe7-0129-4b4b-8417-c678688147c8" name="Default Changelist" comment="project sin errores hasta login">
+    <list default="true" id="a1d3fbe7-0129-4b4b-8417-c678688147c8" name="Default Changelist" comment="projecto actualizado y todo funciona correctamente">
+      <change afterPath="$PROJECT_DIR$/mooc/U2/app/static/css/socnet-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mooc/U2/app/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/signup_ini.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/signup_ini.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,6 +44,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/server - copia.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/home.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/css/socnet-style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/server.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/login.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mooc/U2/app/static/u2_index_ini.html" root0="SKIP_INSPECTION" />
@@ -61,6 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mooc/U2/app/server.py" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -107,7 +109,7 @@
       <workItem from="1619920731722" duration="962000" />
       <workItem from="1619921779868" duration="2724000" />
       <workItem from="1619924557844" duration="3269000" />
-      <workItem from="1619986891634" duration="3811000" />
+      <workItem from="1619986891634" duration="5242000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion de server.py">
       <created>1619921644476</created>
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619922930770</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="projecto actualizado y todo funciona correctamente">
+      <created>1619990892107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619990892107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,13 +161,14 @@
     <MESSAGE value="actualizacion de server.py" />
     <MESSAGE value="server.py actualizado ultimo antes del sign up" />
     <MESSAGE value="project sin errores hasta login" />
-    <option name="LAST_COMMIT_MESSAGE" value="project sin errores hasta login" />
+    <MESSAGE value="projecto actualizado y todo funciona correctamente" />
+    <option name="LAST_COMMIT_MESSAGE" value="projecto actualizado y todo funciona correctamente" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/moocwebapp$server___copia.coverage" NAME="server - copia Coverage Results" MODIFIED="1619909582976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
     <SUITE FILE_PATH="coverage/moocwebapp$server__1_.coverage" NAME="server  original Coverage Results" MODIFIED="1619911568778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
     <SUITE FILE_PATH="coverage/moocwebapp$moocwebapp.coverage" NAME="server Coverage Results" MODIFIED="1619927439661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
-    <SUITE FILE_PATH="coverage/moocwebapp$server.coverage" NAME="server Coverage Results" MODIFIED="1619990700491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
+    <SUITE FILE_PATH="coverage/moocwebapp$server.coverage" NAME="server Coverage Results" MODIFIED="1619992178534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
     <SUITE FILE_PATH="coverage/moocwebapp$server__original.coverage" NAME="server  original Coverage Results" MODIFIED="1619923278655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mooc/U2/app" />
   </component>
 </project>
