@@ -8,22 +8,22 @@ def index():
     return app.send_static_file('u2_index_ini.html')
 
 
-@app.route('/home', methods=['GET'])
+@app.route('/home/', methods=['GET'])
 def home():
     return app.send_static_file('home.html')
 
 
-@app.route('/login', methods=['GET'])
+@app.route('/login/', methods=['GET'])
 def login():
     return app.send_static_file('login.html')
 
 
-@app.route('/signup', methods=['GET'])
+@app.route('/signup/', methods=['GET'])
 def signup():
     return app.send_static_file('signup.html')
 
 
-@app.route('/processLogin', methods=['GET', 'POST'])
+@app.route('/processLogin/', methods=['GET', 'POST'])
 def processLogin():
        missing = []
        fields = ['email', 'passwd', 'login_submit']
@@ -49,7 +49,7 @@ def processLogin():
            '</html>'
 
 
-@app.route('/processSignup', methods=['GET', 'POST'])
+@app.route('/processSignup/', methods=['GET', 'POST'])
 def processSignup():
        missing = []
        fields = ['nickname', 'email', 'passwd','confirm', 'signup_submit']
@@ -76,7 +76,7 @@ def processSignup():
            '</html>'
 
 
-'''@app.route('/processHome', methods=['GET', 'POST'])
+'''@app.route('/processHome/', methods=['GET', 'POST'])
 def processHome():
 	missing = []
 	fields = ['message', 'last', 'post_submit']
