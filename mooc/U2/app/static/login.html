@@ -14,7 +14,7 @@
                 <p>Choose<a href="/"><b>Index</b></a> to start to write Posts </p>
             </div>
  </div>
-<form action="LoginProcess" method="post" name="login">
+<form action="/processing/" method="post" name="login">
     <label for="email">Email</label>
     <div class="inputs">
         <input id="email" name="email"  placeholder="Email" size="80" type="text" value="" required/>
@@ -33,3 +33,13 @@
 </form>
 </body>
 </html>
+
+<!--
+<form action="processHome" method="post" name="home">
+    <label for="message">Say something:</label>
+    <div class="inputs">
+        <input id="message" class="message" required="true" placeholder="message" size="80" maxlength="140" type="text"/>
+        <input type="hidden" id="last" name="last" value=""/>
+    </div>
+    <div class="inputs">
+    <input id="post_submit" name="post_submit" type="submit" value="Post!"/></div></form>-->
